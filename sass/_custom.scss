@@ -1,0 +1,61 @@
+/*start back one */
+.back-one {
+  background: url("../img/fre-sonneveld-2073.jpg");
+  height:600px;
+  position: relative;
+  h1 {
+    color: #fff;
+    font-size: 20px;
+  }
+  nav {
+    width: 50%;
+    position: absolute;
+    top: 15px;
+    right: 0;
+
+  }
+
+  .overlay:after{
+    content: '';
+    width: 75%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    z-index: 99;
+    bottom: 0;
+    transform-origin: left bottom;
+    right: -300px;
+    transform: skew(20deg);
+
+  }
+
+
+}
+/*end back one */
+/*start back two*/
+.back-two {
+  background: url("../img/laptop1.jpg") fixed no-repeat;
+  background-position:center;
+  background-size: 100% auto;
+  padding: 30px 0;
+  text-align: center;
+  height: 300px;
+  color: #fff;
+
+}
+
+/*end back two */
+/*start back three*/
+.back-three {
+  height: 600px;
+  background: #ccc;
+  .table {
+    height: 150%;
+    display: table;
+  }
+  .table-row{
+    display: table-row;
+  }
+}
+/*end back three*/
